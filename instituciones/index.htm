@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+#contenedor {
+	height: 700px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contenedor #cabecera {
+	background-color: #09C;
+	height: 75px;
+	width: 800px;
+	font-family: arial;
+	font-size: 24px;
+	color: #FFF;
+}
+#contenedor #cuerpo {
+	background-color: #FFF;
+	height: 650px;
+	width: 800px;
+	font-family: arial;
+	font-size: 14px;
+}
+#contenedor #pie {
+	height: 75px;
+	width: 800px;
+	background-color: #09C;
+	font-family: arial;
+	font-size: 13px;
+	color: #FFF;
+}
+</style>
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+</head>
+
+<body>
+<div id="contenedor">
+  <div id="cabecera">
+    <h1 align="center">Instituciones de la CDMX</h1>
+  </div>
+  <div id="cuerpo">
+  <form id="form1" name="form1" method="post" action="">
+  <p align="center">
+    <label for="uu"></label>
+  <div id="tablas">
+<table width="238" border="0" align="left">
+      <tr>
+        <td width="60" height="53"><div align="center">
+          <h2>Menu</h2>
+        </div></td>
+        <td width="104"><div align="center">
+          <select name="menuescuelas" size="1" id="jumpMenu" onchange="MM_jumpMenu('parent',this,0)">
+            <option value="">Privadas</option>
+            <option value="">Públicas</option>
+            <option value="">Estadisticas</option>
+            </select>
+        </div></td>
+        </tr>
+    </table>
+<table width="101" height="118" border="0" align="right">
+  <tr>
+    <th height="56" scope="col"><h5><a href="iniciarsesion.html"><img src="INI.png" width="129" height="48" /></a></h5></th>
+    </tr>
+  <tr>
+    <th height="56" scope="col"><a href="registrate.html"><img src="REG.png" width="129" height="48" /></a></th>
+    </tr>
+  </table>
+  </div>
+  <h1 align="center">&nbsp;</h1>
+  <div id="tablita"></div>
+<h2 align="center">&nbsp;</h2>
+<h3 align="center">&nbsp;</h3>
+<h2 align="center">&nbsp;</h2>
+<h2 align="center">Datos de Institución</h2>
+<table width="279" height="199" align="center">
+  <tr>
+      <th width="141" scope="col"><div align="left">
+        <h3>Nombre</h3>
+      </div></th>
+      <th width="300" scope="col"><div align="center"><span id="sprytextfield7">
+        <h5>
+          <label for="nom"></label>
+          <label for="nombre"></label>
+          <input name="nombre" type="text"  id="nombre" size="50" maxlength="30" required/>
+        </h5>
+    </td>    </tr>
+    <tr>
+      <td><div align="left">
+        <h3>Domicilio</h3>
+      </div></td>
+      <td><h5 align="center"><span id="sprytextfield4">
+        <input name="domicilio" type="text" id="domicilio2" size="50" maxlength="50" />
+      </span></h5></td>
+    </tr>
+
+    <tr>
+      <td><div align="left">
+        <h3>Delegación </h3>
+      </div></td>
+      <td><h5 align="center"><span id="sprytextfield2">
+      
+        <input name="delegacion" type="text"  id="delegacion2" size="50" maxlength="30" />
+      </span></h5></td>
+    </tr>
+    <tr>
+      <td><h3>Colonia</h3></td>
+      <td><h5 align="center">
+        <label for="codigo"></label>
+        <label for="coloniaa"></label>
+        <input name="coloniaa" type="text" id="coloniaa" size="50" maxlength="30" />
+      </h5></td>
+    </tr>
+    <tr>
+      <td><div align="left">
+        <h3>Código Postal</h3>
+      </div></td>
+      <td><div align="center">
+        <input name="codigo" type="text" pattern="^[0-9]" id="codigo" size="50" maxlength="5" required/>
+      </div></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <label for="listaescuelas2">Tipo de Institución</label>
+        <select name="listaescuelas" id="listaescuelas2">
+          <option>Publica</option>
+          <option>Privada</option>
+        </select>
+      </div>        <div align="center"></div></td>
+      </tr>
+    <tr>
+      <td colspan="2">&nbsp;</td>
+      </tr>
+    <tr>
+      <td><div align="center">
+        <input type="submit" name="enviar" id="enviar" value="Registrar" />
+      </div></td>
+      <td><div align="right">
+        <input type="reset" name="borrar" id="borrar" value="Borrar" />
+      </div></td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+
+
+</form>
+
+  </div>
+  <div id="pie">
+    <div align="center">
+      <h5>Derechos Reservados</h5>
+    </div>
+  </div>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>
